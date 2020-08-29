@@ -1,0 +1,99 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+    }
+
+body {
+    background-color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        color: ivory;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    p{
+        color: ivory;
+    }
+
+
+
+.formContact{
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contInput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.contInput input{
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(228, 228, 192);
+    border-radius: 10px;
+}
+
+
+.contInput label {
+    border-radius: 10px;
+}
+
+.contInput input:focus{
+    box-shadow: blue;
+}
+
+div.contInput>label{
+margin-top: 5px;
+
+
+}
+
+
+
+label{
+    color: rgb(235, 235, 235);
+}
+
+.btnEnviar{
+    margin-top: 40px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    
+    }
+.btnEnviar:hover{
+    transform: scale(1.1);
+}
+
+.mensajeAlertaNombre{
+    color: red;
+    margin: 5px;
+}
+
+.mensajeAlertaInputs{
+    color: red;
+    margin: 5px;
+
+}
+
+
+.inputTyC{
+    flex-direction: row;
+    align-items: center;
+}
+.inputTyC >label{
+    order: 2;
+}
+/* .BgcAlert{
+    background-color: red !important;
+} */
